@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personle Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(17, 11, 3);
+        position: sticky;
+        top: o;
+        
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        margin: 20px 0px;
+        padding: 20px 0;
+        
+    }
+    nav ul li{
+        font-family: century;
+        font-size: none;
+        margin:20px 0px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px 25px;
+        transition: all .5s ease;
+    }
+    nav ul li a:hover{
+         background-color: white;
+         color: black;
+         box-shadow: 0 0 10px white;
+    }
+    .detel{
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+    .detel h1{
+        font-size: 50px;
+        color: blueviolet;
+        margin-bottom: 20px;
+    }
+    span{
+        color: orange;
+    }
+    .detel p{
+        color: beige;
+        line-height: 22px;
+    }
+    .detel a{
+        background: scroll;
+        padding-top: 18px;
+        text-decoration: solid;
+        font-weight: bold;
+        color: aqua;
+        display: inline-block;
+        margin: 30px;
+        border-radius: 5px;
+    }
+    .images{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .images img{
+        height: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%);
+        transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+    }:
+    .images:hover .shape{
+        bottom: 40px;
+    }
+    .images:hover.girl{
+        left: 50%;
+    }
+
+    }
+</style>
+<body>
+    
+    <nav class="navbar">
+         <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">HIRE ME</a></li>
+                
+            </ul>
+        </nav>
+        
+        <div class="detel">
+        
+            <h1>I am <span>Jaskaran kaur</span></h1>
+            <p>This is my official portfolio website to show all
+                <br>Details and work experience web development
+            </p>
+            <a href="#" Download CV></a>
+        </div>
+        <div class="images">
+            <img src="C:\Users\jaska\Desktop\apni kaksha\img\beautiful-business-girl-black-suit-smiling-portfolio-red-34570493.jpg" class="shape">
+            <img src="images/girl.png" class="girl">
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
